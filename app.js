@@ -1,5 +1,5 @@
 function computerThink() {
-	computerChoice = Math.floor(Math.random()*3);
+	computerChoice = Math.floor(Math.random()*5);
 	if(computerChoice === 1) {
 		//alert("Yes");//
 		document.getElementById("image").src = "Yes.png";
@@ -19,6 +19,18 @@ function computerThink() {
 	else{
 		//alert("Maybe");//
 		document.getElementById("image").src = "Maybe.png";
+	}
+}
+
+function checkvalue() {
+	var mystring = document.getElementById('myString').value;
+	if(!mystring.match(/\s/)) {
+	return false;
+	}
+
+	else {
+	computerThink();
+	return true;
 	}
 }
 
