@@ -1,12 +1,13 @@
 body {
-	background-color:blue;
+	background:blue;
 	font-size: 25px;
 	font-family: sans-serif;
+	color:white;
 	
 }
 #fineprint {
 	font-size: 5px;
 	font-family: serif;
-
+	color:white;
 }
 
