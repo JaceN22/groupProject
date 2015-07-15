@@ -69,23 +69,23 @@ function computerThink() {
 	computerChoice = Math.floor(Math.random()*5);
 	if(computerChoice === 1) {
 		//alert("Yes");//
-		window.location.href = "Yes.png";
+		window.location.href = "index2.html";
 	}
 	else if(computerChoice === 2) {
 		//alert("No");//
-		window.location.href = "No.png";
+		window.location.href = "index3.html";
 	}
 	else if(computerChoice === 3) {
 		//alert("Probably Not");//
-		window.location.href = "ProbablyNot.png";
+		window.location.href = "index4.html";
 	}
 	else if(computerChoice === 4) {
 		//alert("Probably");//
-		window.location.href = "Probably.png";
+		window.location.href = "index5.html";
 	}
 	else{
 		//alert("Maybe");//
-		window.location.href = "Maybe.png";
+		window.location.href = "index6.html";
 	}
 }
 
@@ -107,8 +107,8 @@ function computerThink() {
 </head>
 
 <body>
-  
-  <center>
+	<background-image: "Background.png">
+  	<center>
     
     <img src="Blank.png" class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="computerThink()">
   </center>
