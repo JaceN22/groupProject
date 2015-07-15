@@ -1,8 +1,9 @@
 body {
-	background:blue;
+	background-image:url("Background.png");
 	font-size: 25px;
 	font-family: sans-serif;
 	color:white;
+
 	
 }
 #fineprint {
